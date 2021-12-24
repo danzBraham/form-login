@@ -27,7 +27,6 @@ body {
     border-radius: 50px;
     margin: 50px auto;
     width: 90%;
-    /* height: 550px; */
     display: grid;
     grid-template-columns: 6fr 4fr;
     overflow: hidden;
