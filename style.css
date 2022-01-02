@@ -169,3 +169,57 @@ input:focus {
     background-color: hsl(296, 69%, 11%);
     transform: scale(0.95);
 }
+
+/* Responsive */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 2fr 5fr;
+    }
+
+    .form-section .text-gradient {
+        font-size: 1.7em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .form-box .title {
+        font-size: 2em;
+        margin-bottom: 1.5em;
+    }
+
+    .form-box .input-box label {
+        margin-bottom: 2.3em;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 1fr;
+    }
+
+    .container .hero {
+        display: none;
+    }
+
+    .form-section .text-gradient {
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .form-box .title {
+        font-size: 1em;
+        margin-bottom: 1.5em;
+    }
+
+    .form-box .input-box label {
+        margin-bottom: 2em;
+    }
+
+}
